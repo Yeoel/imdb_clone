@@ -11,7 +11,8 @@ export default function error(error, reset) {
             <h1>
                 Something went wrong. Please try again later.
             </h1>
-            <button className='hover:text-amber-600' onClick={() => reset()}>Try Again</button>
+            <br />
+            <button className='bg-amber-500 text-white hover:bg-white hover:text-amber-500 py-2 px-2 rounded' onClick={() => reset()}>Try Again</button>
         </div>
     )
 }
